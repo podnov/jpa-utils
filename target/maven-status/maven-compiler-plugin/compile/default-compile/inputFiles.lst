@@ -1,0 +1,8 @@
+/var/jenkins-data/jobs/github_podnov_jpa-utils_artifactRelease/workspace/src/main/java/com/evanzeimet/jpautils/MergeEntitiesCommand.java
+/var/jenkins-data/jobs/github_podnov_jpa-utils_artifactRelease/workspace/src/main/java/com/evanzeimet/jpautils/api/EntityManagerCommandRuntimeException.java
+/var/jenkins-data/jobs/github_podnov_jpa-utils_artifactRelease/workspace/src/main/java/com/evanzeimet/jpautils/MergeEntityCommand.java
+/var/jenkins-data/jobs/github_podnov_jpa-utils_artifactRelease/workspace/src/main/java/com/evanzeimet/jpautils/PersistEntitiesCommand.java
+/var/jenkins-data/jobs/github_podnov_jpa-utils_artifactRelease/workspace/src/main/java/com/evanzeimet/jpautils/api/EntityManagerCommand.java
+/var/jenkins-data/jobs/github_podnov_jpa-utils_artifactRelease/workspace/src/main/java/com/evanzeimet/jpautils/api/EntityManagerCommandException.java
+/var/jenkins-data/jobs/github_podnov_jpa-utils_artifactRelease/workspace/src/main/java/com/evanzeimet/jpautils/PersistEntityCommand.java
+/var/jenkins-data/jobs/github_podnov_jpa-utils_artifactRelease/workspace/src/main/java/com/evanzeimet/jpautils/api/EntityManagerCatchCommand.java
