@@ -1,8 +1,0 @@
-com/evanzeimet/jpautils/api/EntityManagerCommandException.class
-com/evanzeimet/jpautils/api/EntityManagerCommand.class
-com/evanzeimet/jpautils/PersistEntitiesCommand.class
-com/evanzeimet/jpautils/MergeEntityCommand.class
-com/evanzeimet/jpautils/api/EntityManagerCatchCommand.class
-com/evanzeimet/jpautils/MergeEntitiesCommand.class
-com/evanzeimet/jpautils/PersistEntityCommand.class
-com/evanzeimet/jpautils/api/EntityManagerCommandRuntimeException.class
