@@ -4,6 +4,6 @@ import javax.persistence.EntityManager;
 
 public interface EntityManagerCatchCommand<T> {
 
-	T execute(EntityManager entityManager) throws EntityManagerCommandException;
+	T execute(EntityManager entityManager) throws Exception;
 
 }
