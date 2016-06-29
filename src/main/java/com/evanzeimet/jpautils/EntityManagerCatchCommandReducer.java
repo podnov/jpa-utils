@@ -28,7 +28,7 @@ public class EntityManagerCatchCommandReducer<T> implements EntityManagerCommand
 
 		try {
 			result = command.execute(entityManager);
-        } catch (Exception e) {
+		} catch (Exception e) {
 			throw new EntityManagerCommandRuntimeException(e);
 		}
 
