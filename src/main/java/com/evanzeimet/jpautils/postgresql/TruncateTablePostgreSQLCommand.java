@@ -1,14 +1,14 @@
-package com.evanzeimet.jpautils.postgres;
+package com.evanzeimet.jpautils.postgresql;
 
 import javax.persistence.EntityManager;
 
 import com.evanzeimet.jpautils.api.EntityManagerCommand;
 
-public class TruncatePostgresTableCommand implements EntityManagerCommand<Void> {
+public class TruncateTablePostgreSQLCommand implements EntityManagerCommand<Void> {
 
 	private String tableName;
 
-	public TruncatePostgresTableCommand() {
+	public TruncateTablePostgreSQLCommand() {
 
 	}
 
