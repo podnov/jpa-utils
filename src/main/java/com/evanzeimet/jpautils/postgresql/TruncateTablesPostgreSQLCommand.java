@@ -1,4 +1,4 @@
-package com.evanzeimet.jpautils.postgres;
+package com.evanzeimet.jpautils.postgresql;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import javax.persistence.EntityManager;
 
 import com.evanzeimet.jpautils.api.EntityManagerCommand;
 
-public class TruncatePostgresTablesCommand implements EntityManagerCommand<Void> {
+public class TruncateTablesPostgreSQLCommand implements EntityManagerCommand<Void> {
 
 	private List<String> tableNames;
 
-	public TruncatePostgresTablesCommand() {
+	public TruncateTablesPostgreSQLCommand() {
 
 	}
 
@@ -24,7 +24,7 @@ public class TruncatePostgresTablesCommand implements EntityManagerCommand<Void>
 
 	@Override
 	public Void execute(EntityManager entityManager) {
-		TruncatePostgresTableCommand command = new TruncatePostgresTableCommand();
+		TruncateTablePostgreSQLCommand command = new TruncateTablePostgreSQLCommand();
 
 		for (String tableName : tableNames) {
 			command.setTableName(tableName);
